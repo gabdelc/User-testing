@@ -24,7 +24,7 @@ body{
     text-decoration: none;
     color: white;
 }
-/* fin de generales*/
+/*--- fin de generales ------------------------------------- */
 
 header .container-fluid{
     background: url(../image/large.jpg);
@@ -35,10 +35,12 @@ header .container-fluid{
 
 header .row{
     background: rgba(0, 0, 0, 0.4);
-    padding-top: 2%;    
+    padding-top: 2%;  
+    
     }
+
 nav{
-    display: inline-block;
+    display: inline;
     }
 
 .titulo{

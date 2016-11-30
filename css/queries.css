@@ -3,42 +3,17 @@
     .container{
         width: 750px;
     }
-    nav .logo1{
-        width: 40%;
-        }
-    .nav{
-        float: right;
+   
+    .prueba{
+        text-align: center
     }
-    .boton{
-        margin: 30% 20%;
-    }
-    .servicios {
-    margin-bottom: 5%;
-}
     
-     
-    
+  
+
     
 @media screen and (max-width:650px){
      
-    .container{
-        width: 550px;
+    
     }
        
-    .icon-ctn{
-        display: none;
-    }
-    .formulario{
-        margin: 0;
-        width: 60%;
-    }
-    .text{
-        margin: 0;
-        padding: 0;
-    }
-    .form-test{
-        margin: 0;
-        padding: 0;
-        width:80%;
-    }
-}
+  
