@@ -92,10 +92,132 @@ header .row{
     
 }
 
+-------------------------------------
 
+/*-------------------------SECTION-5-PASOS---------------------------------------*/
+.pass {
+    background: url(../image/sec-2.jpg);
+    height: 550px;
+    background-size: cover;
+}
+.pasos{
+    margin-left: 5%;
+}
+.pasos h3{
+   color: #77afff;  
+}
+.pasos1 ul{
+    margin: 0 3%;
+}
+.pasos li{
+    margin: 2% 0;
+}
+.pa1, .pa2, .pa3{
+    margin: 5% 0;
+}
+.icon-cn{
+    width: 50px;
+    height: 50px;
+    background-color:#50bdea;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    left: -4%;
+}
 
-
-
+/*-------------------------SECTION-6-PORQUE-USAR--------------------------------------*/
+.section-6{
+    margin: 8% 0;}
+.using img{
+    width: 50%;
+}
+.using h2{
+   color: #77afff;
+    text-align: center;
+    margin: 5% 0; 
+}
+.using ul{
+    margin: 4% 7%;
+}
+.using li{
+    padding: 0.5%;
+}
+/*-------------------------SECTION-7----------------------------------------*/
+.section-7{
+    background-color: #74a3db;
+    color:#fff;
+    padding: 1% 0;
+}
+.section-7 button{
+    margin: 9% 0 0;
+}
+/*-------------------------FOOTER----------------------------------------*/
+footer{
+    background: #2a3541;
+    color: #fff;
+    padding: 3% 0; 
+}
+.social{
+ text-align: right  
+}
+.icon-s{
+    display: inline-block;
+    font-size:20px;
+    color: #74a3db;
+    margin:0 2% 5%;
+}
+/*-------------------------CONTACT----------------------------------------*/
+.contact{
+    background: url(../image/large.jpg);
+    background-size: cover;
+    height: 800px;
+}
+.formulario{
+    background-color: #fff;
+    width: 50%;
+    padding: 0 4%;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    border-top: 5px solid #74a3db;
+    border-radius: 10px;
+}
+.formulario h3{
+    border-bottom: 2px solid #ccc;
+}
+.formulario button{
+    background-color: #74a3db;
+    color: #fff
+}
+.input-email{
+    margin: 5% 0;
+}
+.text{
+    width: 700px;
+}
+.text p {
+    margin: 0;
+}
+/*-------------------------MEDIA-QUERIES---------------------------------------*/
+@media screen and (max-width:1000px){
+    .free{text-align: center;}
+    .but button{margin: 0 30%;}
+    .icon-cn{margin-left: 4%;}
+    .pasos1{margin-left: 3.5%;}
+    .navbar-header button{;background-color: #74a3db; margin: 8% 5%;}
+    header .nav{text-align: center; font-family: "Open Sans"}
+    .banner2{text-align: center;}
+    .butt2{margin: 6% 31%;}
+@media screen and (max-width:450px){
+    .icon-cn{display: none;}
+   /*------------CONTACT------------------*/ 
+    .formulario{margin: 0;width: 60%;}
+    .text{margin: 0;padding: 0;}
+    .form-test{margin: 0;padding: 0; width:80%;}
+}
 
 
 
