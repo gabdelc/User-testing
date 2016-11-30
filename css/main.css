@@ -6,6 +6,24 @@ body{
     padding: 0;
    }
 
+.separador {
+    margin: -5% auto 5% auto;
+    display: block;
+}
+.prueba{
+    background: rgba(41, 90, 199, 0.81);
+    padding: 2% 0;
+    color: white;
+    text-align: center;
+}
+
+.prueba .boton{
+    border: 1px solid white;
+    }
+.prueba .boton a{
+    text-decoration: none;
+    color: white;
+}
 /* fin de generales*/
 
 header .container-fluid{
@@ -17,33 +35,17 @@ header .container-fluid{
 
 header .row{
     background: rgba(0, 0, 0, 0.4);
-    padding-top: 2%;
+    padding-top: 2%;    
     }
-
-.navbar{
-    float: right;
-    margin-top: %;
-}
+nav{
+    display: inline-block;
+    }
 
 .titulo{
   margin: 10% 25%;  
 }
 
-.prueba{
-    background: rgba(41, 90, 199, 0.81);
-    padding: 2% 0;
-    color: white;
-    text-align: center;
-}
 
-.prueba .boton{
-    border: 1px solid white;
-    margin: 2%;
-}
-.prueba .boton a{
-    text-decoration: none;
-    color: white;
-}
 
 /*  ---------fin de header------------------------------  */
 
@@ -74,91 +76,78 @@ header .row{
 
 .ejemplo {
     border-top: 1px solid #f20b0b;
-}
-.ejemplo .separador {
-    margin: -5% auto 5% auto;
-    display: block;
+    margin-bottom: 5%;
 }
 
-.ejemplo h3, .logo {
+.ejemplo h2, .logo {
     display: inline-block;
-    text-align: right;
-       
-}
+    }
 
-.ejemplo .container .flecha {
-    margin: 0 auto;
-    display: block;
-    
-}
+.ejemplo .flecha {
+    text-align: center;
+  }
 
--------------------------------------
+/* --- fin de ejemplo ---------------*/
 
-/*-------------------------SECTION-5-PASOS---------------------------------------*/
-.pass {
-    background: url(../image/sec-2.jpg);
-    height: 550px;
-    background-size: cover;
-}
+
 .pasos{
-    margin-left: 5%;
-}
+    padding-bottom: 5%;
+  }
+
 .pasos h3{
+    margin-top: 0;
+    text-align: center;
+}
+.pasos h4{
    color: #77afff;  
 }
-.pasos1 ul{
-    margin: 0 3%;
+.pasos h4, .pasos p{
+    margin-left: 5%;
+    font-size: 15px;
 }
 .pasos li{
-    margin: 2% 0;
+    margin: 2% ;
 }
-.pa1, .pa2, .pa3{
+.paso1, .paso2, .paso3{
     margin: 5% 0;
 }
-.icon-cn{
+
+.icon-ctn{
     width: 50px;
     height: 50px;
-    background-color:#50bdea;
-    color: #fff;
-    line-height: 50px;
+    background-color:rgb(80, 189, 234);
+    color: #ffffff;
     border-radius: 100%;
     text-align: center;
-    font-size: 30px;
+    line-height: 50px;
+    font-size: 25px;
     position: absolute;
     left: -4%;
 }
 
-/*-------------------------SECTION-6-PORQUE-USAR--------------------------------------*/
-.section-6{
-    margin: 8% 0;}
-.using img{
-    width: 50%;
-}
-.using h2{
+/* --- fin pasos ------------------------------------------*/
+
+.usos h2, .logo {
+    display: inline-block;
+     }
+
+.usos h2{
    color: #77afff;
     text-align: center;
-    margin: 5% 0; 
+   }
+.usos ul{
+    margin: 4%;
 }
-.using ul{
-    margin: 4% 7%;
-}
-.using li{
+.usos li{
     padding: 0.5%;
-}
-/*-------------------------SECTION-7----------------------------------------*/
-.section-7{
-    background-color: #74a3db;
-    color:#fff;
-    padding: 1% 0;
-}
-.section-7 button{
-    margin: 9% 0 0;
-}
-/*-------------------------FOOTER----------------------------------------*/
+    }
+
+/* --- usos --------------- */
+
 footer{
     background: #2a3541;
     color: #fff;
-    padding: 3% 0; 
+    padding: 2% 0; 
 }
 .social{
  text-align: right  
@@ -167,64 +156,31 @@ footer{
     display: inline-block;
     font-size:20px;
     color: #74a3db;
-    margin:0 2% 5%;
-}
-/*-------------------------CONTACT----------------------------------------*/
-.contact{
+    }
+/* ---- fin footer ----------*/
+
+.contacto{
     background: url(../image/large.jpg);
     background-size: cover;
-    height: 800px;
-}
+    height: 700px;
+    }
 .formulario{
-    background-color: #fff;
+    background-color: white;
     width: 50%;
     padding: 0 4%;
     position: absolute;
     top: 15%;
     left: 25%;
-    border-top: 5px solid #74a3db;
-    border-radius: 10px;
-}
+    border-top: 5px solid rgb(116, 163, 219);
+        }
 .formulario h3{
-    border-bottom: 2px solid #ccc;
+    border-bottom: 2px solid rgb(204, 204, 204);
 }
 .formulario button{
     background-color: #74a3db;
-    color: #fff
+    color: #fff;
 }
 .input-email{
     margin: 5% 0;
 }
-.text{
-    width: 700px;
-}
-.text p {
-    margin: 0;
-}
-/*-------------------------MEDIA-QUERIES---------------------------------------*/
-@media screen and (max-width:1000px){
-    .free{text-align: center;}
-    .but button{margin: 0 30%;}
-    .icon-cn{margin-left: 4%;}
-    .pasos1{margin-left: 3.5%;}
-    .navbar-header button{;background-color: #74a3db; margin: 8% 5%;}
-    header .nav{text-align: center; font-family: "Open Sans"}
-    .banner2{text-align: center;}
-    .butt2{margin: 6% 31%;}
-@media screen and (max-width:450px){
-    .icon-cn{display: none;}
-   /*------------CONTACT------------------*/ 
-    .formulario{margin: 0;width: 60%;}
-    .text{margin: 0;padding: 0;}
-    .form-test{margin: 0;padding: 0; width:80%;}
-}
-
-
-
-
-
-
-
-
-
 

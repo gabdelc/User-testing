@@ -1,9 +1,44 @@
-@media screen and (max-width:1000px){
-    .free{text-align: center;}
-    .but button{margin: 0 30%;}
-    .icon-cn{margin-left: 4%;}
-    .pasos1{margin-left: 3.5%;}
-    .navbar-header button{;background-color: #74a3db;}
-    .banner2{text-align: center;}
-    .butt2{margin: 0 31%;} 
+
+@media screen and (max-width:900px){
+    .container{
+        width: 750px;
+    }
+    nav .logo1{
+        width: 40%;
+        }
+    .nav{
+        float: right;
+    }
+    .boton{
+        margin: 30% 20%;
+    }
+    .servicios {
+    margin-bottom: 5%;
+}
+    
+     
+    
+    
+@media screen and (max-width:650px){
+     
+    .container{
+        width: 550px;
+    }
+       
+    .icon-ctn{
+        display: none;
+    }
+    .formulario{
+        margin: 0;
+        width: 60%;
+    }
+    .text{
+        margin: 0;
+        padding: 0;
+    }
+    .form-test{
+        margin: 0;
+        padding: 0;
+        width:80%;
+    }
 }
