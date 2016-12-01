@@ -30,14 +30,11 @@ header .container-fluid{
     text-align: center;
     }
 
+
 header .row{
     background: rgba(0, 0, 0, 0.4);
     padding-top: 2%;  
     
-    }
-
-nav{
-    display: inline;
     }
 
 .titulo{
@@ -74,7 +71,7 @@ nav{
 /* --- fin servicios ------------------------------------*/
 
 .ejemplo {
-    border-top: 1px solid #f20b0b;
+    border-top: 1px solid #c6bfbf;
     margin-bottom: 5%;
 }
 
