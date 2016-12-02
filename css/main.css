@@ -15,11 +15,14 @@ body{
 }
 
 .prueba .boton{
-    border: 1px solid white;
+    border: 2px solid white;
+    margin: 10% auto;
+    padding: 3%;
     }
-.prueba .boton a{
+.prueba a{
     text-decoration: none;
     color: white;
+    
 }
 /*--- fin de generales ------------------------------------- */
 
@@ -30,18 +33,25 @@ header .container-fluid{
     text-align: center;
     }
 
-
 header .row{
     background: rgba(0, 0, 0, 0.4);
     padding-top: 2%;  
-    
+    }
+
+nav li{
+    list-style: none;
+}
+nav li a{
+    display: block;
+}
+nav li a:hover{
+    text-decoration: none;
+    background: #FFF;
     }
 
 .titulo{
   margin: 10% 25%;  
 }
-
-
 
 /*  ---------fin de header------------------------------  */
 
@@ -85,6 +95,13 @@ header .row{
 
 /* --- fin de ejemplo ---------------*/
 
+#img-paso2{
+    opacity: 0.5;
+    }
+.img-op{
+    background: #000000;
+    padding: 0;
+}
 
 .pasos{
     padding-bottom: 5%;
